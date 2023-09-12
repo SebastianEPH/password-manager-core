@@ -1,0 +1,29 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": "./tsconfig.json",
+    "parser": "@typescript-eslint/parser"
+  },
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+		"no-console": "off",
+		"@typescript-eslint/naming-convention": [
+			"error",
+			{
+				"selector": "enum",
+				"format": ["UPPER_CASE"]
+			}
+		]
+	}
+}
