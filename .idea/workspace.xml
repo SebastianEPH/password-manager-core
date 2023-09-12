@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="991e95ae-ffa2-48aa-92df-94710f318cdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.commitlintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/commit-msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/password-manager-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/commons/exceptions/Internal-server-error-500.exception.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/container/personContainerInstance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/person.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/interface/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/interface/response.vo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/router/person.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/util/constans.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/util/enum.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/util/error.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/util/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2VHephk3sTWtmuqqK3LzSrIszXz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "P:\\SoftwareProjects\\Express - NodeJs\\password-manager-core\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="991e95ae-ffa2-48aa-92df-94710f318cdd" name="Changes" comment="" />
+      <created>1694497617809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694497617809</updated>
+      <workItem from="1694497618832" duration="194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
