@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991e95ae-ffa2-48aa-92df-94710f318cdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controller/person-controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/interface/provider-response.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/inversify.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mapper/other.mapper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/service/impl/person.service.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/service/person.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/util/api-connector.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/commons/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/database/database-credentials.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/database/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/database/impl/database-mysql.impl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/database-response.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repository/database.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repository/impl/database-mysql.repository.impl.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/container/personContainerInstance.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/person.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/interface/headers.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router/person.router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/person-controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/person-controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/inversify.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/inversify.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/util/constans.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/util/constans.util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/util/enum.util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/util/enum.util.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694497617809</updated>
-      <workItem from="1694497618832" duration="8441000" />
+      <workItem from="1694497618832" duration="9839000" />
     </task>
     <servers />
   </component>

@@ -20,7 +20,7 @@ export enum HEADERS {
 	CONTENT_TYPE = 'Content-Type',
 	CONTENT_TYPE_LOWER = 'content-type',
 }
-export enum VALUE {
+export enum HEADERS_VALUE {
 	ALLOW = '*',
 	APPLICATION_JSON = 'application/json',
 }
@@ -40,3 +40,32 @@ export enum TAG {
 export enum NAME {
 	ERROR_UTIL = 'errorUtil()',
 }
+
+export enum NUM {
+	ZERO = 0,
+	ONE = 1,
+	TWO = 2,
+	THREE = 3,
+	FOUR = 4,
+	FIVE = 5,
+	SIX = 6,
+	SEVEN = 7,
+	EIGHT = 8,
+	NINE = 9,
+	TEN = 10,
+	TWELVE = 12,
+	THIRTEEN = 13,
+	SIXTEEN = 16,
+	NINE_TEEN = 19,
+	TWENTY_FIVE = 25,
+	FIFTY = 50,
+	TEN_THOUSND = 10000,
+	ONE_TRILLION = 1000000000000,
+	TEN_CUATRILLION = 10000000000000000,
+}
+export const NUMERIC_BASE = {
+	BINARY: 2, // Base binaria (0-1)
+	OCTAL: 8, // Base octal (0-7)
+	DECIMAL: 10, // Base decimal (0-9)
+	HEXADECIMAL: 16, // Base hexadecimal (0-F)
+};
