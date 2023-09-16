@@ -1,4 +1,4 @@
-export interface ResponseVo {
+export default interface ResponseVo {
 	user_message?: string;
 	message?: string;
 	error?: Error;

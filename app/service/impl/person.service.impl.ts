@@ -1,6 +1,6 @@
 import { injectable } from 'inversify';
 import { PersonService } from '../person.service';
-import Headers from '../../interface/headers.interface';
+import { Headers } from '../../interface';
 
 @injectable()
 export default class PersonServiceImpl implements PersonService {

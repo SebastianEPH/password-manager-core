@@ -1,15 +1,15 @@
 import 'reflect-metadata';
-import * as express from 'express';
+import express, { Application } from 'express';
 import cors from 'cors';
 import { InversifyExpressServer } from 'inversify-express-utils';
 import morgan from 'morgan';
-import container from './inversify.config';
-import { ENV } from './util/enum.util';
+import container from './container';
+import { ENV } from './commons/enum';
 
 class App {
 	private server: InversifyExpressServer;
 
-	private app: express.Application;
+	private app: Application;
 
 	constructor() {
 		this.server = new InversifyExpressServer(container);
@@ -19,7 +19,7 @@ class App {
 	}
 
 	private initConfig() {
-		this.server.setConfig((app: express.Application): void => {
+		this.server.setConfig((app: Application): void => {
 			app.use(express.json());
 			app.use(express.urlencoded({ extended: false }));
 			app.use(cors());

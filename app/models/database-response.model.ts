@@ -1,6 +1,6 @@
-import { DATABASE_TYPE } from '../commons/constants';
+import { DATABASE_TYPE } from '../database/enum.database';
 
-export class DatabaseResponse {
+export default class DatabaseResponse {
 	public success: boolean;
 
 	public data?: any;

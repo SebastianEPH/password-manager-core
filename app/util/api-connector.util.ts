@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import axios, { AxiosInstance } from 'axios';
 import OthersMapper from '../mapper/other.mapper';
-import ResponseProvider from '../interface/provider-response.interface';
+import { ResponseProvider } from '../interface';
 
 interface ApiConnectorConfig {
 	host: string;

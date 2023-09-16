@@ -1,17 +1,18 @@
 import { inject, injectable } from 'inversify';
-import { DATABASE_MESSAGE, DATABASE_TYPE } from '../../commons/constants';
-import { DatabaseResponse } from '../../models/database-response.model';
+import { DATABASE_MESSAGE, DATABASE_TYPE } from '../../database/enum.database';
+
 import { DatabaseRepository } from '../database.repository';
 import TYPES from '../../types';
-import { NUM } from '../../util/enum.util';
+import { NUM } from '../../commons/enum';
 import { Database } from '../../database/database';
+import DatabaseResponse from '../../models/database-response.model';
 
 @injectable()
 export default class DatabaseRepositoryMysqlMockImpl implements DatabaseRepository {
 	constructor(@inject(TYPES.CoreClientDatabase) private database: Database) {}
 
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	public async create(data: any): Promise<DatabaseResponse> {
+	public async create(_: any): Promise<DatabaseResponse> {
 		const query: string = 'insert * FROM test;';
 		try {
 			const conn = await this.database.connect();
@@ -34,7 +35,7 @@ export default class DatabaseRepositoryMysqlMockImpl implements DatabaseReposito
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	public async getAll(data: any): Promise<DatabaseResponse> {
+	public async getAll(_: any): Promise<DatabaseResponse> {
 		const query: string = 'SELECT * FROM test;';
 		try {
 			const conn = await this.database.connect();
@@ -57,7 +58,7 @@ export default class DatabaseRepositoryMysqlMockImpl implements DatabaseReposito
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	public async getOne(data: any): Promise<DatabaseResponse> {
+	public async getOne(_: any): Promise<DatabaseResponse> {
 		const query: string = 'select * FROM test;';
 		try {
 			const conn = await this.database.connect();

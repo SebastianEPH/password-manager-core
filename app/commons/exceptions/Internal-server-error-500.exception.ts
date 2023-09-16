@@ -1,5 +1,5 @@
-import { HTTP } from '../../util/enum.util';
-import { ResponseVo } from '../../interface/response.vo';
+import { HTTP } from '../enum';
+import { ResponseVo } from '../../interface';
 
 export default class InternalServerError500Exception extends Error {
 	public readonly statusCode: HTTP = HTTP.STATUS_CODE_500;

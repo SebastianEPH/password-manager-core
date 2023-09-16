@@ -129,3 +129,13 @@ dist
 .yarn/install-state.gz
 .pnp.*
 /package-lock.json
+
+.idea/
+.idea
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/modules.xml
+.idea/password-manager-core.iml
+.idea/vcs.xml
+.idea/workspace.xml

@@ -1,4 +1,4 @@
-import { HTTP } from '../util/enum.util';
+import { HTTP } from '../commons/enum';
 
 export default class OtherMapper {
 	public static parseStatusCode(status: string): HTTP {

@@ -1,6 +1,6 @@
-import InternalServerError500Exception from '../commons/exceptions/Internal-server-error-500.exception';
-import { APP_ENVIRONMENT, ENV, HTTP, TAG } from './enum.util';
-import { ResponseVo } from '../interface/response.vo';
+import { InternalServerError500Exception } from '../commons/exceptions';
+import { APP_ENVIRONMENT, ENV, HTTP, TAG } from '../commons/enum';
+import { ResponseVo } from '../interface';
 
 export default class ErrorUtil {
 	public static catchError(e: Error): { statusCode: HTTP; body: ResponseVo } {
